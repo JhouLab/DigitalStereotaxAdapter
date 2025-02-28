@@ -2,7 +2,7 @@ Digital stereotax adapter using cheap calipers
 
 ====================
 
-<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/photo.jpg" width="800"></div>
+<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/photo.jpg" width="600"></div>
 
 
 Tom Jhou
@@ -20,4 +20,4 @@ Each arm requires four STL files, and two calipers. Note that the left and right
 There are several models of caliper. You MUST get the one with the red/yellow/blue buttons. The others will not fit in the STL parts I've made. There are again two options: one metal, and one plastic. The metal one has greater accuracy (0.01mm) but the plastic cone is good enough in my opinion (0.1mm). Either way, you have to cut the calipers slightly to fit. The plastic model can be cut easily by hand with simple wire cutters. The metal one requires tools and specialized bits to cut and grind.
 
 
-[![Watch the video](https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/photo_dv.mp4)](https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/stereotax_dv.mp4)
+[![Watch the video](https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/photo_dv.jpg)](https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/stereotax_dv.mp4)
