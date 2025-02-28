@@ -1,8 +1,9 @@
-Digital stereotax adapter using cheap calipers
+Ridiculously cheap digital stereotax adapter
+============================================
 
-====================
+---
 
-<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/photo.jpg" width="600"></div>
+<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/photo.jpg" width="450"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/photo_dv.jpg" width="450"></div>
 
 
 Tom Jhou
