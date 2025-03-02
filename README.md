@@ -11,30 +11,34 @@ _by Tom Jhou_
 
 ---
 
-This project will digitize a Stoelting Lab Standard Manipulator Arm like this one:
-
-https://stoeltingco.com/Neuroscience/Standard-Manipulator-Arms~9758
+This project will digitize a Stoelting Lab Standard Manipulator Arm like this: https://stoeltingco.com/Neuroscience/Standard-Manipulator-Arms~9758
 
 Cost is about \$50, 98% cheaper than Stoelting's official digital conversion kit.
 
-Accuracy is 0.01mm in the AP axis (same as Stoelting), and 0.1mm in the DV and RL axes,
-which is less accurate, but likely still good enough. Remember: the main inaccuracies are from
-variation in brain size and bregma location between animals, which is typically larger than the resolution of the electronics.
+Accuracy is 0.01mm in the AP axis (same as Stoelting), and 0.1mm in the DV and RL axes, which is less accurate,
+but likely still good enough. Remember: the main inaccuracies are from variation in brain size and bregma location
+between animals, which is typically larger than the electronic resolution.
 
-We've been using this for about a year in our lab. Feedback from other labs would be welcome, and helps us improve the design.
+We've been using this for about a year in our lab. Feedback from other users is welcome, and helps us improve the design.
 
 Please contact me at tomjhou@gmail.com with questions and comments.
 
 
 ## Requirements:
 
-1. A 3D printer. We have used a Bambu A1 mini, and various Qidi printers. All work fine. 
-2. About 100 grams of PLA filament, or about 1/10 of a spool. Cost = about $3
+1. A 3D printer. We have used a Bambu A1 mini, and various Qidi printers. Almost any modern printer should work fine. 
+2. About 100 grams of PLA filament (about $3 worth)
 3. This 150mm digital readout: ($28.99): https://www.amazon.com/gp/product/B089ZSG84J/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1
 4. Two 6" calipers (about $8 each): READ STEP 1 INSTRUCTIONS BELOW BEFORE YOU BUY: https://www.amazon.com/Digital-Caliper-Adoric-Calipers-Measuring/dp/B07DFFYCXS
 5. Kevlar cutting tool (or equivalent), e.g.: https://www.amazon.com/Xuron-Model-9180-Kevlar-Scissor/dp/B00068P3TY
-6. A single 6mm long M3 screw with washer, like this: https://www.amazon.com/HELIFOUNER-Phillips-Screws-Kit-Stainless/dp/B0BV9CF62L
-7. Optional: #8-32 tap and #8x32-3/8" machine screw for securing digital readout to base clamps.
+6. Two 6mm long M3 screws with washers, like this: https://www.amazon.com/HELIFOUNER-Phillips-Screws-Kit-Stainless/dp/B0BV9CF62L
+7. Optional (but recommended): #8-32 tap and #8x32-3/8" machine screw for securing digital readout to base clamps.
+
+Note: the 3D printed parts in this project are intended to fit snugly onto the various stereotaxic parts. This is by
+design, to eliminate any loose play in the system. But this also means that this project could be affected by small
+manufacturing design changes in either the Stoelting components or the digital readouts and calipers used. I am not
+currently aware of any such differences, but can't rule this out. If any of the parts here don't fit perfectly on
+your system, let me know.
 
 
 Instructions:
@@ -46,13 +50,10 @@ Buy the parts listed above.
 
 IMPORTANT: there are several caliper models at the link above.
 You MUST get the 6" model (not 8") BLACK (not red or silver). It will have a black plastic body,
-with red/yellow/blue buttons, as shown in the photos on this page.
-
-There is also SILVER model with red/yellow/blue buttons. That one costs more, but has 10x higher accuracy.
-In theory, it will work, but I don't recommend it, since it is made of steel, and will cause trouble in step
+with red/yellow/blue buttons. There is also SILVER model with red/yellow/blue buttons. That one costs more,
+but has 10x higher accuracy. In theory, it will work, but since it is made of steel, it will cause trouble in step
 6 below when you have to cut the body and jaws down to size. The steel body is MUCH harder to cut, and the higher
-accuracy isn't usually necessary. But if you really need the resolution, and have the tools and skills to cut steel,
-it should work. If you go this route, let me know how it turns out, I'm quite curious.
+accuracy isn't usually necessary, so I don't recommend it.
 
 
 ## Step 2: Print AP axis parts
@@ -74,18 +75,30 @@ Left and right sides: <div align="center"><img src="https://github.com/JhouLab/D
 
 ## Step 3: Assemble AP axis parts
 
-Attach the spacer to the digital readout using the M3 screw. The photo below shows a right-arm conversion. The left arm
-would be the mirror image:
+First, you have to flip the orientation of the readout bar. Position it with the blue side up, then
+loosen the two screws on the black metal bracket by about 1/2 turn, then pull off the bracket. Flip the bar
+so the blue side faces down, then put the bracket back on and tighten the screws. There are two brackets, one on
+either end of the bar, so you need to do this on both sides.
 
-<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/photo_spacer.jpg" width="450"></div>
+<div align="center">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Readout_flip1.jpg" width="250">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Readout_flip2.jpg" width="250">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Readout_flip3.jpg" width="250">
+</div>
 
-Don't tighten the screw all the way - leave just enough play so you can slide the spacer in the end to keep the spacer
-parallel with the AP axis. You can tigten it fully at the very end, when all parts are assembled.
 
-Slide the Y-shaped piece onto the metal bracket around the knob controlling the AP movement. The fit will likely be
-very snug. This is by design, as we don't want any play in the system.
+Attach the spacer to the digital readout using M3 screws and washers:
 
-<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Y-adapter.jpg" width="450"></div>
+<div align="center">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Readout_spacer.jpg" width="350">
+</div>
+
+Now slide the Y-shaped piece onto the metal bracket around the knob controlling the AP movement:
+
+<div align="center">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Y_adapter1.jpg" width="250">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Y_adapter2.jpg" width="250">
+</div>
 
 Place the back/side base clamps onto the stereotaxic base. One will fit over the back corner, and
 the other will slide over the side near the front. Place the readout bar onto the base clamps, snapping the
@@ -93,9 +106,9 @@ black metal brackets onto the oval bumps of the base clamps.
 
 <div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/base_clamp_digital_readout_rear.jpg" width="450"></div>
 
-The slider should move freely across the entire range of the readout bar. Slide it until the spacer slot aligns with
-the vertical stem of the Y-shaped adapter. Place the stem of the Y-shaped adapter into the spacer slot. The fit should
-be very tight. It might not go in right away, but if you push on it, it should eventually slide in place.
+The slider should move freely across the entire range of the readout bar. Align the spacer slot with
+the stem of the Y-shaped adapter, and insert the stem into the spacer slot. The fit should
+be very tight, and might take some pushing to fit.
 
 <div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Y-adapter_to_spacer_markup.JPG" width="450"></div>
 
