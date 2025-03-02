@@ -37,7 +37,8 @@ Please contact me at tomjhou@gmail.com with questions and comments.
 4. Two 6" calipers (about $8 each): READ STEP 1 INSTRUCTIONS BELOW BEFORE YOU BUY: https://www.amazon.com/Digital-Caliper-Adoric-Calipers-Measuring/dp/B07DFFYCXS
 5. Kevlar cutting tool (or equivalent), e.g.: https://www.amazon.com/Xuron-Model-9180-Kevlar-Scissor/dp/B00068P3TY
 6. Two 6mm long M3 screws with washers, like this: https://www.amazon.com/HELIFOUNER-Phillips-Screws-Kit-Stainless/dp/B0BV9CF62L
-7. Optional (but recommended): #8-32 tap and #8x32-3/8" machine screw for securing digital readout to base clamps.
+7. Optional (but recommended): #8-32 tap and #8x32-1/4" machine screw for securing digital readout to base clamps.
+8. Silicone glue (e.g. "Amazong Goop" or equivalent) for attaching base clamp to stereotaxic frame base.
 
 Note: the 3D printed parts in this project are intended to fit snugly to each other and to the other parts. This is by
 design, to eliminate any loose play in the system. But this also means that this project could be affected by small
@@ -62,8 +63,17 @@ accuracy isn't usually necessary, so I don't recommend it.
 
 ## Step 2: Print AP axis parts
 
-Print USING SUPPORTS the "Consolidated AP LEFT.stl" or "Consolidated AP RIGHT.stl" file, depending on whether you are
-converting a left or right arm. Each file contains the following 4 parts:
+Print these two files:
+
+1. Stoelting AP, parts 1-2 of 4, USE SUPPORTS.stl
+2. One of "Stoelting AP, parts 3-4 of 4, LEFT, NO SUPPORTS.stl", or "Stoelting AP, parts 3-4 of 4, RIGHT, NO SUPPORTS.stl"
+
+The second file choice depends on whether you are converting a left or right arm. As the filenames suggest, the first one
+should be printed with supports enabled in your 3D printer settings, while the second file should be printed without supports
+enabled. If you accidentally use supports, it is not the end of the world, but the holes in those parts will be filled with
+material that you will have to drill out.
+
+You should end up with the following 4 parts:
 
 1. Spacer (long flat piece with slots at both ends)
 2. Y-shaped adapter, which connects the stereotax arm to the spacer.
@@ -73,16 +83,33 @@ converting a left or right arm. Each file contains the following 4 parts:
 OPTIONAL: The base clamps have 3.4mm holes in them. If you know how to use a basic tap tool,
 you can cut #8-32 theads into these holes, allowing you to attach a screw for extra stability.
 
-Left and right sides: <div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Consolidated AP left.png" width="400">
-<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Consolidated AP right.png" width="400"></div>
+<div align="center">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Stoelting AP, parts 1-2 of 4.png" width="400">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Stoelting AP, parts 3-4 of 4, RIGHT.png" width="400">
+</div>
+
+---
+
+When you print the spacer and Y-shaped adapter, make sure you can fit the stem of the Y-adapter into
+the spacer slot. It will likely be hard to insert at first, but with a little pressure it should go in. Once
+you verify this, please separate the pieces again and go onto the next step. If these two pieces do NOT fit,
+please do not proceed until you figure out what is wrong. For example, some printer settings (e.g. flow rate) might
+cause the pieces to print slightly larger than expected.
+
+<div align="center">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/parts1-2_separate.jpg" width="250">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/parts1-2_joined.jpg" width="250">
+</div>
+
 
 
 ## Step 3: Assemble AP axis parts
 
-First, you have to flip the orientation of the readout bar. Position it with the blue side up, then
-loosen the two screws on the black metal bracket by about 1/2 turn, then pull off the bracket. Flip the bar
-so the blue side faces down, then put the bracket back on and tighten the screws. There are two brackets, one on
-either end of the bar, so you need to do this on both sides:
+The readout bar you bought has a blue metal bar with black metal end brackets, whose orientation will need to be
+reversed. Position the bar with the blue side up, then loosen the two screws on the black metal bracket about a turn,
+just enough to allow you to pull off the bracket. Flip the bar so the blue side faces down (while keeping the bracket
+in the same orientation), then put the bracket back on and tighten the screws fully.
+There are two brackets, one on either end of the bar, so you need to do this on both sides:
 
 <div align="center">
 <img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Readout_flip1.jpg" width="250">
@@ -90,12 +117,6 @@ either end of the bar, so you need to do this on both sides:
 <img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Readout_flip3.jpg" width="250">
 </div>
 
----
-Next, take a look at the spacer and Y-shaped adapter. Make sure you can fit the stem of the Y-adapter into
-the spacer slot. It will likely be hard to insert at first, but with a little pressure it should go in. Once
-you verify this, please separate the pieces again and go onto the next step.
-If these two pieces do NOT fit, then please check your printer settings (e.g. make sure you haven't set the
-extrusion rate too high) and reprint them until they fit snugly.
 
 ---
 Attach the spacer to the digital readout using M3 screws and washers:
@@ -113,10 +134,13 @@ Slide the Y-shaped piece onto the metal bracket around the knob controlling the 
 </div>
 
 Place the back/side base clamps onto the stereotaxic base. One will fit over the back corner, and
-the other will slide over the side near the front. Place the readout bar onto the base clamps, snapping the
-black metal brackets onto the oval bumps of the base clamps.
+the other will slide over the side near the front. Each clamp has an oval bump that should fit snugly into
+the oval screw hole of the brackets at the end of the readout bar:
 
-<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/base_clamp_digital_readout_rear.jpg" width="450"></div>
+<div align="center">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Base_clamp_back.jpg" width="300">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Base_clamp_front.jpg" width="300">
+</div>
 
 The slider should move freely across the entire range of the readout bar. Align the spacer slot with
 the stem of the Y-shaped adapter, and insert the stem into the spacer slot. The fit should
