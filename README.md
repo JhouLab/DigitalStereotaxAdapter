@@ -66,8 +66,8 @@ converting a left or right arm. Each file contains the following 4 parts:
 OPTIONAL: The base clamps have 3.4mm holes in them. If you know how to use a basic tap tool,
 you can cut #8-32 theads into these holes, allowing you to attach a screw for extra stability.
 
-<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Consolidated AP left.png" width="450"></div>
-<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Consolidated AP right.png" width="450"></div>
+Left and right sides: <div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Consolidated AP left.png" width="400">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Consolidated AP right.png" width="400"></div>
 
 
 ## Step 3: Assemble AP axis parts
@@ -110,6 +110,9 @@ right and left arms have separate files. This gives 2 x 2 x 2 = 8 files total.
 You can print the files in any order, and you should print only the ones you need, e.g. if you are converting a left
 arm, you do not need to print the right side parts. Make sure to keep track of which part is which, as they are NOT
 interchangeable, despite looking very similar.
+
+<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Stoelting DV, left arm, part 1 of 2, caliper body.png" width="400"></div>
+
 
 ## Step 5: Assemble RL and DV axes parts:
 
