@@ -4,7 +4,7 @@ Ridiculously cheap (and functional) digital stereotax adapter
 ---
 
 <div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/photo_rl.jpg" width="450">
-<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/photo_dv.jpg" width="150"></div>
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/photo_dv.jpg" width="160"></div>
 
 
 _by Tom Jhou_
