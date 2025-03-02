@@ -10,12 +10,13 @@ _by Tom Jhou_
 
 ---
 
-This project will digitize a Stoelting Lab Standard Manipulator Arm for about \$50, which is 98% cheaper than
-Stoelting's official digital conversion kit:
+This project will digitize a Stoelting Lab Standard Manipulator Arm like this one:
 
 https://stoeltingco.com/Neuroscience/Standard-Manipulator-Arms~9758?navigate_from_document=960&navigated_from_object=3778
 
-Accuracy is 0.01mm in the AP axis (same as Stoelting's upgrade), and 0.1mm in the DV and RL axes,
+Cost is about \$50, 98% cheaper than Stoelting's official digital conversion kit.
+
+Accuracy is 0.01mm in the AP axis (same as Stoelting), and 0.1mm in the DV and RL axes,
 which is less accurate, but still good enough. Remember: the main source of inaccuracy is inter-animal
 variation in brain size and bregma location, which is typically on the order of a few hundred microns.
 
@@ -43,13 +44,13 @@ Instructions:
 Buy the parts listed above.
 
 IMPORTANT: there are several caliper models at the link above.
-You MUST get the PLASTIC (not metal) one with the red/yellow/blue buttons.
+You MUST get the 6" model (not 8") BLACK (not red or silver). It will have a black plastic body,
+with red/yellow/blue buttons.
 
-There is also a metal caliper with the red/yellow/blue buttons. In theory, you can use that one
-instead of the plastic (and it has 10x higher accuracy also), but I don't recommend it, since you will need to cut the
-body and jaws down to size in step 5 below, and the metal one is MUCH harder to cut. The higher
-accuracy isn't usually necessary, but if you need it, and have the tools to cut it, feel free to try it,
-and let me know how it turns out!
+There is also SILVER model with red/yellow/blue buttons. That one costs more, but has 10x higher accuracy.
+In theory, it will work, but I don't recommend it, since it is made of steel, and will cause trouble in step
+6 below when you have to cut the body and jaws down to size. The steel body is MUCH harder to cut, and the higher
+accuracy isn't usually necessary.
 
 
 ## Step 2: Print AP axis parts
@@ -90,7 +91,7 @@ The slider should move freely across the entire range of the readout bar. Slide 
 the vertical stem of the Y-shaped adapter. Place the stem of the Y-shaped adapter into the spacer slot. The fit should
 be very tight. It might not go in right away, but if you push on it, it should eventually slide in place.
 
-<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Y-adapter_to_spacer.jpg" width="450"></div>
+<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Y-adapter_to_spacer_markup.JPG" width="450"></div>
 
 Print the "AP readout panel holder_dual.stl" file. It has space for two panels, since it was intended for use with
 a dual stereotax. 
@@ -129,7 +130,7 @@ Don't worry, the caliper will work fine without it.
 
 Cut off all four jaws of the caliper, as shown in the various photos.
 
-<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/photo_dv_markup.jpg" width="450"></div>
+<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/photo_dv_markup.JPG" width="450"></div>
 
 Snap the caliper into the various 3D-printed clamps, as in the photos. I recommend working with one axis at a time, so that
 you can learn as you go along. The first one will be rather difficult to assemble, but it will get easier as you go along.
