@@ -12,7 +12,7 @@ _by Tom Jhou_
 
 This project will digitize a Stoelting Lab Standard Manipulator Arm like this one:
 
-https://stoeltingco.com/Neuroscience/Standard-Manipulator-Arms~9758?navigate_from_document=960&navigated_from_object=3778
+https://stoeltingco.com/Neuroscience/Standard-Manipulator-Arms~9758
 
 Cost is about \$50, 98% cheaper than Stoelting's official digital conversion kit.
 
@@ -87,7 +87,7 @@ very snug.
 
 Place the back/side base clamps onto the stereotaxic base. One will fit over the back corner, and
 the other will slide over the side near the front. Place the readout bar onto the base clamps, snapping the
-black metal brackets onto the oval bumps of the base clamps. 
+black metal brackets onto the oval bumps of the base clamps.
 
 <div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/base_clamp_digital_readout_rear.jpg" width="450"></div>
 
@@ -111,7 +111,9 @@ You can print the files in any order, and you should print only the ones you nee
 arm, you do not need to print the right side parts. Make sure to keep track of which part is which, as they are NOT
 interchangeable, despite looking very similar.
 
-<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Stoelting DV, left arm, part 1 of 2, caliper body.png" width="400"></div>
+Parts for left DV axis:
+<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Stoelting DV, left arm, part 1 of 2, caliper body.png" width="400">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Stoelting DV, left arm, part 2 of 2, knob clamp.png" width="400"></div>
 
 
 ## Step 5: Assemble RL and DV axes parts:
