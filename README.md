@@ -19,14 +19,19 @@ Accuracy is 0.01mm in the AP axis (same as Stoelting), and 0.1mm in the DV and R
 but likely still good enough. Remember: the main inaccuracies are from variation in brain size and bregma location
 between animals, which is typically larger than the electronic resolution.
 
-We've been using this for about a year in our lab. Feedback from other users is welcome, and helps us improve the design.
+We've been using this for about a year in our lab. It works quite well, and real-world performance is indistinguishable
+from the commerically available (and much more costly) option. However, assembling this does require a modest amount
+of familiarity with 3D printing, as well as some mechanical skill. If assembling IKEA furniture gives you anxiety, this
+will be a challenge!
+
+Feedback from other users is welcome, and helps us improve the design.
 
 Please contact me at tomjhou@gmail.com with questions and comments.
 
 
 ## Requirements:
 
-1. A 3D printer. We have used a Bambu A1 mini, and various Qidi printers. Almost any modern printer should work fine. 
+1. A 3D printer. Almost any model will suffice, including small ones like the Bambu A1 mini.
 2. About 100 grams of PLA filament (about $3 worth)
 3. This 150mm digital readout: ($28.99): https://www.amazon.com/gp/product/B089ZSG84J/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1
 4. Two 6" calipers (about $8 each): READ STEP 1 INSTRUCTIONS BELOW BEFORE YOU BUY: https://www.amazon.com/Digital-Caliper-Adoric-Calipers-Measuring/dp/B07DFFYCXS
@@ -34,11 +39,10 @@ Please contact me at tomjhou@gmail.com with questions and comments.
 6. Two 6mm long M3 screws with washers, like this: https://www.amazon.com/HELIFOUNER-Phillips-Screws-Kit-Stainless/dp/B0BV9CF62L
 7. Optional (but recommended): #8-32 tap and #8x32-3/8" machine screw for securing digital readout to base clamps.
 
-Note: the 3D printed parts in this project are intended to fit snugly onto the various stereotaxic parts. This is by
+Note: the 3D printed parts in this project are intended to fit snugly to each other and to the other parts. This is by
 design, to eliminate any loose play in the system. But this also means that this project could be affected by small
 manufacturing design changes in either the Stoelting components or the digital readouts and calipers used. I am not
-currently aware of any such differences, but can't rule this out. If any of the parts here don't fit perfectly on
-your system, let me know.
+currently aware of any such differences, but if any parts don't fit perfectly on your system, please let me know.
 
 
 Instructions:
@@ -78,7 +82,7 @@ Left and right sides: <div align="center"><img src="https://github.com/JhouLab/D
 First, you have to flip the orientation of the readout bar. Position it with the blue side up, then
 loosen the two screws on the black metal bracket by about 1/2 turn, then pull off the bracket. Flip the bar
 so the blue side faces down, then put the bracket back on and tighten the screws. There are two brackets, one on
-either end of the bar, so you need to do this on both sides.
+either end of the bar, so you need to do this on both sides:
 
 <div align="center">
 <img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Readout_flip1.jpg" width="250">
@@ -86,14 +90,22 @@ either end of the bar, so you need to do this on both sides.
 <img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Readout_flip3.jpg" width="250">
 </div>
 
+---
+Next, take a look at the spacer and Y-shaped adapter. Make sure you can fit the stem of the Y-adapter into
+the spacer slot. It will likely be hard to insert at first, but with a little pressure it should go in. Once
+you verify this, please separate the pieces again and go onto the next step.
+If these two pieces do NOT fit, then please check your printer settings (e.g. make sure you haven't set the
+extrusion rate too high) and reprint them until they fit snugly.
 
+---
 Attach the spacer to the digital readout using M3 screws and washers:
 
 <div align="center">
 <img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Readout_spacer.jpg" width="350">
 </div>
 
-Now slide the Y-shaped piece onto the metal bracket around the knob controlling the AP movement:
+---
+Slide the Y-shaped piece onto the metal bracket around the knob controlling the AP movement:
 
 <div align="center">
 <img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Y_adapter1.jpg" width="250">
