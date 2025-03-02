@@ -66,6 +66,10 @@ converting a left or right arm. Each file contains the following 4 parts:
 OPTIONAL: The base clamps have 3.4mm holes in them. If you know how to use a basic tap tool,
 you can cut #8-32 theads into these holes, allowing you to attach a screw for extra stability.
 
+<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Consolidated AP left.png" width="450"></div>
+<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Consolidated AP right.png" width="450"></div>
+
+
 ## Step 3: Assemble AP axis parts
 
 Attach the spacer to the digital readout using the M3 screw. The photo below shows a right-arm conversion. The left arm
