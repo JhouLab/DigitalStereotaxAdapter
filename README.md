@@ -1,10 +1,10 @@
-Ridiculously cheap (and functional) digital stereotax adapter
+Ridiculously cheap (and functional) 3-axis digital stereotax adapter
 ============================================
 
----
 
-<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/photo_rl.jpg" width="450">
-<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/photo_dv.jpg" width="160"></div>
+<div align="center">
+<video src="https://github.com/user-attachments/assets/23dbc953-8d90-421e-99c2-d5927db93f00" />
+</div>
 
 
 _by Tom Jhou_
@@ -13,38 +13,40 @@ _by Tom Jhou_
 
 ## Overview:
 
-This project will digitize a Stoelting Lab Standard Manipulator Arm like this: https://stoeltingco.com/Neuroscience/Standard-Manipulator-Arms~9758
+This project will digitize all three axes of a Stoelting Lab Standard Manipulator Arm, like this one: https://stoeltingco.com/Neuroscience/Standard-Manipulator-Arms~9758
 
-Cost is about \$50, which is 98% cheaper than Stoelting's official digital conversion kit. You might need
-\$50-ish or so in hand tools also.
+Cost is about \$30 for the AP axis, and $10 for each of the DV and RL axes. These are NOT typos, it really is that
+cheap, about 98% less than Stoelting's digital conversion kit. You will also need about \$50-ish in hand tools,
+along with a 3D printer and basic familiarity with its use.
 
 Accuracy is 0.01mm in the AP axis (same as Stoelting), and 0.1mm in the DV and RL axes, which is less accurate,
 but likely still good enough, as the anatomical variation between animals will exceed this anyway. We've been using
-this for about a year in our lab, and it works quite well.
+this in our lab since 2024, and it works quite well.
 
-Assembly requires familiarity with 3D printing as well as mechanical skill. If you run into trouble,
-or have ideas/comments, feel free to contact me at tomjhou@gmail.com or tjhou@som.umaryland.edu.
+If you have problems, ideas, or comments, contact me at tomjhou@gmail.com or tjhou@som.umaryland.edu.
 
 
 ## Requirements:
 
-1. A 3D printer. Almost any model will suffice, including small ones like the Bambu A1 mini.
+1. A 3D printer. Almost any model works, including small tabletop ones like the Bambu A1 mini.
 2. About 100 grams of PLA filament (about $3 worth)
 3. This 150mm digital readout: ($28.99): https://www.amazon.com/gp/product/B089ZSG84J/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1
-4. Two 6" calipers (about $8 each): READ STEP 1 INSTRUCTIONS BELOW BEFORE YOU BUY: https://www.amazon.com/Digital-Caliper-Adoric-Calipers-Measuring/dp/B07DFFYCXS
+4. Two 6" calipers (<$10 each): READ STEP 1 INSTRUCTIONS BELOW BEFORE YOU BUY: https://www.amazon.com/Digital-Caliper-Adoric-Calipers-Measuring/dp/B07DFFYCXS
 5. Any cutting tool, like this one: https://www.amazon.com/Xuron-Model-9180-Kevlar-Scissor/dp/B00068P3TY
-6. Two 6mm long M3 screws with washers, like this: https://www.amazon.com/HELIFOUNER-Phillips-Screws-Kit-Stainless/dp/B0BV9CF62L
-7. Optional (but highly recommended): #8-32 tap and two #8x32-1/4" machine screws for securing digital readout to base clamps.<br>
-    Tap: https://www.amazon.com/Drill-America-DWT54279-High-Speed-Threading/dp/B00DL7COVW<br>
-    Manual tool for holding tap: https://www.amazon.com/AUTOTOOLHOME-Drilling-Capacity-0-315-Screwdriver/dp/B01M4FY99G<br>
-    Machine screw (pack of 100 but you only need 2): https://www.mcmaster.com/91772A190/<br>
-8. Silicone glue (e.g. "Amazong Goop" or equivalent) for base clamps.
+6. 6mm long M3 screws + washers, like this (pack of 500, but you only need 2): https://www.amazon.com/HELIFOUNER-Phillips-Screws-Kit-Stainless/dp/B0BV9CF62L
+7. Optional (but highly recommended) #8x32-1/4" stainless steel machine screws.<br>
+    Pack of 100 screws (but you only need 2): https://www.mcmaster.com/91772A190/<br>
+    Tap tool for cutting threads: https://www.amazon.com/Drill-America-DWT54279-High-Speed-Threading/dp/B00DL7COVW<br>
+    Manual holder for tap tool: https://www.amazon.com/AUTOTOOLHOME-Drilling-Capacity-0-315-Screwdriver/dp/B01M4FY99G<br>
+8. Waterproof glue (e.g. "Amazing Goop", shoe goo, etc) for base clamps. https://www.amazon.com/Amazing-GOOP-140231-Purpose-Clear/dp/B006NTE01M
 
-Note: the 3D printed parts should fit snugly together. This is by
-design, to eliminate loose play in the system. But this also means the fit could be affected by small
-differences in 3D printer settings, or by small manufacturing design changes in Stoelting's components
-or the digital readouts and calipers. If any parts don't fit perfectly on your system, please let me know,
-and I'll see if I can help.
+All links are accurate as of March 2025, but parts on Amazon are subject to change. If any links are broken,
+please email me.
+
+Note: the 3D printed parts will fit snugly together. This is by design, to eliminate loose play in the system.
+However, this means the tight fits can be disrupted by small differences in 3D printer settings, or by
+small manufacturing design changes in Stoelting's components or the digital readouts and calipers.
+If any parts don't fit perfectly on your system, please let me know.
 
 
 Instructions:
@@ -54,8 +56,8 @@ Instructions:
 
 IMPORTANT: the 6" caliper linked above comes in several varieties.
 You MUST get the 6" model (not 8") in BLACK (not red or silver). It has a black plastic body,
-with red/yellow/blue buttons. Do NOT buy any of the steel models, as the caliper body/jaws need to be cut in step
-3.6 below, and the metal ones are vastly harder to cut.
+with red/yellow/blue buttons. Do NOT buy any of the steel models, as the caliper body/jaws need to be cut
+later (see step 3.6 below), and the metal ones are vastly harder to cut.
 
 
 ## Step 2: Print AP axis parts
@@ -71,7 +73,7 @@ The first file should be printed with supports _enabled_ in your 3D printer sett
 while the second file should be printed _without_ supports enabled (otherwise the holes will fill with PLA, and you will
 have to drill them out). This gives you four total parts:
 
-1. Spacer (long flat piece with slots at both ends)
+1. Spacer (long flat piece with rectangular slots at both ends)
 2. Y-shaped adapter.
 3. Base clamp (back corner).
 4. Base clamp (side).
@@ -128,16 +130,17 @@ need to flip their orientation, as shown below:
 ---
 
 3.4: Place the two base clamps onto the stereotaxic base. One will fit over the back corner, and
-the other will slide over the side near the front. Each base clamp has an oval protrusion on top with a central hole.
-The digital readout's two metal brackets have corresponding oval holes that snap snugly onto the protrusion.
+the other will slide over the side near the front. Place the digital readout bar on the clamps, aligning the
+oval bracket holes with the oval bumps on the clamps.
 
 At this point, the base clamps will be loose, as the metal stereotax base has nothing to lock onto.
-To stabilize them, I add a couple of drops of glue underneath each clamp to keep it from slipping. I use
+To stabilize them, add a couple of drops of glue underneath each clamp to keep it from slipping. I use
 "Amazing Goop", a silicone-based glue with stiffening additives, but aquarium glue (which is also silicone-based)
-or even krazy glue will also work.
+or even krazy glue will work.
 
-If you tapped threads into the central hole, use a 1/4" long #8-32 machine screw to lock the digital readout bar
-onto the base clamps. Otherwise, you can use krazy glue or silicone glue to keep the bar in place.
+If you tapped threads into the holes in the oval bumps, you can now add a 1/4" long #8-32 machine screw to lock
+the digital readout bar onto the base clamps. Otherwise, you can use krazy glue or silicone glue to keep the bar
+secured to the base clamps.
 
 <div align="center">
 <img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Base_clamp_back.jpg" width="300">
@@ -151,8 +154,8 @@ the stem of the Y-adapter. Push the spacer end up to lock it to the Y-adapter st
 <div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/Y-adapter_to_spacer.jpg" width="450"></div>
 
 ---
-3.6: Print the "AP readout panel holder.stl" file, and snap the digital readout panel into the pocket. The cable tucks underneath
-the holder.
+3.6: OPTIONAL: print the "AP readout panel holder.stl" file, and snap the digital readout panel into the pocket.
+The cable tucks underneath the holder.
 
 <div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/photo_readout_crop.jpg" width="450"></div>
 
@@ -202,9 +205,6 @@ Finally, completely remove 3 of the caliper jaws, while removing half of the  on
 
 Snap the caliper into the 3D-printed clamps, as in the photos. This might take some trial and error, and patience.
 
+That should be it. As you can see, this is not an easy project, I myself had to print and assemble these parts
+several times before I got everything right.
 
-# Example videos:
-
-A video of the stereotax in action is below:
-
-<iframe width="407" height="723" src="https://www.youtube.com/embed/_LRqchGYbzQ" title="stereotax dv" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
