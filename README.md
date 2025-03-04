@@ -172,7 +172,7 @@ Drawings of parts for right DV axis:
 <img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/PNG images/Stoelting DV, right arm, part 2 of 2, knob clamp.png" width="400"></div>
 
 
-## Step 5: Assemble RL and DV axes parts:
+## Step 5: Snap RL and DV axes clamps onto arm:
 
 The parts labeled "knob clamp" will snap onto the oval-shaped metal piece just below each knob. The parts labeled
 "caliper body" should snap onto the central block of the arm. Without a video, it is hard to describe exactly how
@@ -181,17 +181,24 @@ to orient these parts. But you should be able to see their orientation from the 
 <div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/photo_right_arm_annotated.jpg" width="450"></div>
 
 
-## Step 6: Cut the caliper jaws and ruler:
+## Step 6: Cut the caliper jaws and ruler, and snap it onto arm:
 
 The calipers each come with a long "ruler" that extends about a foot. Cut off the part past
 about 140mm. The plastic is soft, and should cut without too much difficulty. If you are a few millimeters
 too long or short, it is fine, the exact length is not critical.
 
-There is also a central "spindle" that will protrude as you open/close the caliper. Cut that off too.
+There is also a central "spindle" that will protrude as you open/close the caliper. Cut that off too as far as you can.
+You might have to slide the body almost to the end to fully remove the spindle. There are some small plastic pieces
+inside the body that might fall out when you do this. Don't worry, they aren't necessary to keep.
 
-Cut off all four jaws of the caliper, while leaving the large outer one half intact, as shown below:
+Finally, completely remove 3 of the caliper jaws, while removing half of the  one half intact, as shown below:
 
-<div align="center"><img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/photo_dv_markup.jpg" width="450"></div>
+<div align="center">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/photo_dv_markup.jpg" width="450">
+</div>
+<div align="center">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/photo_rl_markup.jpg" width="450">
+</div>
 
 Snap the caliper into the 3D-printed clamps, as in the photos. This might take some trial and error, and patience.
 
