@@ -207,4 +207,4 @@ Snap the caliper into the 3D-printed clamps, as in the photos. This might take s
 
 A video of the stereotax in action is below:
 
-[![Watch the video](https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/photo_dv.jpg)](https://youtube.com/shorts/_LRqchGYbzQ)
+<iframe width="407" height="723" src="https://www.youtube.com/embed/_LRqchGYbzQ" title="stereotax dv" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
