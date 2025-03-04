@@ -194,10 +194,10 @@ inside the body that might fall out when you do this. Don't worry, they aren't n
 Finally, completely remove 3 of the caliper jaws, while removing half of the  one half intact, as shown below:
 
 <div align="center">
-<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/photo_dv_markup.jpg" width="450">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/photo_dv_markup.jpg" width="400">
 </div>
 <div align="center">
-<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/photo_rl_markup.jpg" width="450">
+<img src="https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/photo_rl_markup.jpg" width="500">
 </div>
 
 Snap the caliper into the 3D-printed clamps, as in the photos. This might take some trial and error, and patience.
@@ -207,4 +207,4 @@ Snap the caliper into the 3D-printed clamps, as in the photos. This might take s
 
 A video of the stereotax in action is below:
 
-[![Watch the video](https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/photo_dv.jpg)](https://youtube.com/shorts/_LRqchGYbzQ)
+[![Watch the video](https://github.com/JhouLab/DigitalStereotaxAdapter/blob/main/Assembly/photo_dv.jpg)](https://youtube.com/shorts/_LRqchGYbzQ)
